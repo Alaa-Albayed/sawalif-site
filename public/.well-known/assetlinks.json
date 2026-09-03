@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sawalif.sawalif_app",
+      "sha256_cert_fingerprints": [
+        "98:F1:4B:63:4C:0C:29:60:BA:92:66:C0:1D:2B:40:04:69:13:D1:7A:9C:5B:2F:A6:2B:D1:6B:3D:B9:B4:5E:8B"
+      ]
+    }
+  }
+]
