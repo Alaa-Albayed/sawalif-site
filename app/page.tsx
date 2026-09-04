@@ -5,6 +5,9 @@ import Footer from '@/components/Footer';
 const PLAY_STORE_URL =
   'https://play.google.com/store/apps/details?id=com.sawalif.sawalif_app';
 
+/** متجر هواوي — لأجهزة أندرويد بلا خدمات Google. */
+const APPGALLERY_URL = 'https://appgallery.huawei.com/app/C118844637';
+
 const tiles = [
   {
     icon: '🎲',
@@ -208,6 +211,25 @@ export default function Home() {
                 </span>
               </a>
 
+              <a
+                className="store-btn"
+                href={APPGALLERY_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5" fill="#C7000B" />
+                  <path
+                    fill="#fff"
+                    d="M12 6.4 16.9 17h-2.3l-.9-2.1H10.3L9.4 17H7.1zm0 3.9-1.1 2.7h2.2z"
+                  />
+                </svg>
+                <span>
+                  <small>حمّله من</small>
+                  <strong>AppGallery</strong>
+                </span>
+              </a>
+
               {/* قريبًا: يُستبدل بالرابط فور قبول التطبيق على App Store */}
               <span className="store-btn is-soon" aria-disabled="true">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -224,7 +246,7 @@ export default function Home() {
             </div>
 
             <span className="badge-soon">
-              متاح الآن على أندرويد · نسخة الآيفون قيد التجهيز
+              متاح الآن على Google Play و AppGallery · نسخة الآيفون قيد التجهيز
             </span>
           </div>
         </div>
