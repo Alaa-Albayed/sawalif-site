@@ -83,7 +83,7 @@ export default function Privacy() {
           <p>
             <strong>اسم التطبيق:</strong> سوالف - شات ودردشه مع مجهول
             <br />
-            <strong>المطوّر:</strong> Ala&apos; Jamal Mahmoud Albayed
+            <strong>المطوّر:</strong> Alaa Albayed
             <br />
             <strong>البريد:</strong>{' '}
             <a href="mailto:alaa.albayed2016@gmail.com">
